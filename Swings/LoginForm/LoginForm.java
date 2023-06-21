@@ -1,3 +1,7 @@
+//A login form is created using 2 labels, 1 textfield, 1 passwordfield and 1 button
+//We have used the event handling in the following form
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
