@@ -2,7 +2,6 @@
 //We have used the event handling in the following form
 //the program is written in such a way that it will display the username and password in the terminal
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
