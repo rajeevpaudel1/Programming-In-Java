@@ -31,7 +31,7 @@ public class RegistrationForm{
 
         JTextField t1 =new JTextField();
         JTextField t2 =new JTextField();
-        JRadioButton male =new JRadioButton("Male");        //we will be creating the radio button
+        JRadioButton male = new JRadioButton("Male");        //we will be creating the radio button
         JRadioButton female= new JRadioButton("Female");
 
         t1.setBounds(150, 50, 150, 40);
@@ -110,14 +110,12 @@ public class RegistrationForm{
 
         btn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
-                if(t1.getText()=="rajeev"){
-                    System.out.println("Your data are: " +t1.getText());
-                    System.out.println("Your address"+t2.getText());
+                if(t1.getText().equals("rajeev")){
+                    System.out.println("The name is:  "+t1.getText());
                 }
                 else{
                     System.out.println("Chor aayo chor");
                 }
-                
             }
         });
 
