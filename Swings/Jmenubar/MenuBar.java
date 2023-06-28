@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.Set;
 
 public class MenuBar{
     public static void main(String[] args) {
