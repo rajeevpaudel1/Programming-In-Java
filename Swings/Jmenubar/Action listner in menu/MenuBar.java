@@ -47,6 +47,7 @@ public class MenuBar{
         frame.setVisible(true);
         
         // Adding action listeners to menu items
+        //we have added multiple action listner using ananonomous inner class method
         i1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 ta.setText("New File...");
